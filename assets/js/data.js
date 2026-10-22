@@ -39,6 +39,12 @@ window.SITE = {
   ],
 
   projects: [
+     { title: "Cebu Hangout Roleplay",
+       Description: "This is the First game I developed. I think it has over 12M visits right now but i'm not sure. Well the game is not public right now as i know.",
+       Tags: ["Roblox, Luau"],
+       Link: "https://ro.blox.com/Ebh5?af_dp=roblox%3A%2F%2Fnavigation%2Fgame_details%3FgameId%3D9181712725&af_web_dp=https%3A%2F%2Fwww.roblox.com%2Fgames%2F118512721988970",
+       LinkLabel: "View Project"
+     }
   ],
 
   
