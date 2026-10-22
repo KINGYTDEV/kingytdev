@@ -42,7 +42,10 @@ window.SITE = {
   ],
 
   certificates: [
-     image: "assets/certificate/certificate1.png, title: "Ethical Hacking Course,
+     {image: "assets/certificate/certificate1.png,
+      title: "Ethical Hacking Course",
+      Description: "Ciaco Networking Academy",
+     }
      
   ],
 
