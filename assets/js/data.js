@@ -42,10 +42,12 @@ window.SITE = {
   ],
 
   certificates: [
+     image: "assets/certificates/certificate1.png, title: "Ethical Hacking Course,
+     
   ],
 
   contact: {
-    email: "", // add your email to show a mailto link
+    email: "kingytdevs@gmail.com",
     links: [
       { label: "GitHub", url: "https://github.com/KINGYTDEV", text: "github.com/KINGYTDEV" }
     ]
