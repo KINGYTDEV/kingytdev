@@ -41,13 +41,15 @@ window.SITE = {
   projects: [
   ],
 
+  
   certificates: [
-     {image: "assets/certificate/certificate1.png,
+    {
+      image: "assets/certificate/certificate1.png",
       title: "Ethical Hacking Course",
-      Description: "Ciaco Networking Academy"
-     }
-     
+      description: "Cisco Networking Academy"
+    }
   ],
+
 
   contact: {
     email: "kingytdevs@gmail.com",
