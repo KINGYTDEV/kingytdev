@@ -112,17 +112,14 @@ window.SITE = {
       image: "assets/certificates/certificate1.png",
       title: "Ethical Hacking Course",
       description: "Cisco Networking Academy"
-    }
-
-    // ADD ANOTHER CERTIFICATE:
-    /*
-    ,
-    {
-      image: "assets/certificates/roblox-dev.png",
-      title: "Certificate Name",
-      description: "Issuing organization"
-    }
-    */
+    },
+   {
+    image: "assets/certificates/Cer2.png",
+    title: "End-point Security Course",
+    description: "Cisco Networking Academy"
+   },
+   
+    
   ],
 
 
