@@ -1,68 +1,142 @@
-/* ==========================================================
-   EDIT YOUR PORTFOLIO HERE. This is the only file you need.
-   Keep the quotes and commas. A section with no entries is
-   hidden automatically, so empty lists never show on the site.
 
-   ADD A CERTIFICATE
-   1. Put the image in assets/certificates/  (e.g. roblox-dev.png)
-      Use simple names: lowercase, no spaces, .png .jpg or .webp.
-   2. Add one line inside "certificates" below:
-      { image: "assets/certificates/roblox-dev.png", title: "Name", description: "Optional" },
-   To remove one, delete its line (and the image if you want).
+/*
+ADD A PROJECT:
+ Copy one project object inside "projects".
+ Change the title, description, tags, and link.
 
-   ADD A PROJECT
-      { title: "Name", description: "One or two sentences.",
-        tags: ["Roblox", "Luau"], link: "https://...", linkLabel: "View project" },
+ ADD A CERTIFICATE:
+ 1. Put your image in assets/certificates/
+ 2. Copy one certificate object inside "certificates".
+ 3. Change the image path, title, and description.
 
-   ADD EXPERIENCE
-      { period: "2023 - Present", role: "Role", org: "Team or company", text: "What you did." },
-   ========================================================== */
+ ADD EXPERIENCE:
+ Copy one experience object inside "experience".
+ Change the dates, role, organization, and description.
+
+ IMPORTANT:
+ - Keep quotation marks and commas.
+ - Use the exact property names shown below.
+ - Do not delete the opening or closing brackets.
+==================================================
+*/
+
 window.SITE = {
-  tagline: "Roblox game developer, development team leader, and cybersecurity learner.",
 
-  // Lines starting with "$ " are shown as commands.
+  // SHORT INTRODUCTION
+  tagline: "Roblox game developer, and Certified Ethical Hacker(CEH) Holder.",
+
+
+  // TERMINAL-STYLE PROFILE
+  // Lines starting with "$ " appear as commands.
   terminal: [
     "$ whoami",
     "KINGYTDEV (Prince Kyle Beringia)",
     "$ cat focus.txt",
-    "Main: Roblox game development",
-    "Also: ethical hacking and cybersecurity"
+    "Main: Roblox Game Development",
+    "Also: Ethical Hacking and Cybersecurity"
   ],
 
+
+  // ABOUT ME
   about: [
-    "I'm Prince Kyle Beringia, known online as KINGYTDEV. I build Roblox games and game systems, lead development teams, and I'm learning ethical hacking and cybersecurity."
+    "I'm Prince Kyle Beringia, known online as KINGYTDEV. I've spent nearly 5 years in game development and around 2 years learning ethical hacking and cybersecurity. I also have experience leading development teams."
   ],
 
-  skills: ["Roblox Game Development", "Game Systems", "Development Team Leadership", "Cybersecurity", "Ethical Hacking"],
 
+  // SKILLS
+  // Add or remove skills as needed.
+  skills: [
+    "Roblox Game Development",
+    "Luau Scripting",
+    "Game Systems",
+    "Development Team Leadership",
+    "Cybersecurity",
+    "Ethical Hacking"
+  ],
+
+
+  // WORK EXPERIENCE
+  // Add your real work experience here.
   experience: [
+    
+    {
+      period: "2023 - Present",
+      role: "Lead Developer",
+      org: "Empire Eclipse Games",
+      text: "Lead development work and help manage game development projects."
+    },
+    
   ],
 
+
+  // PROJECTS
+  // Only list projects you actually worked on.
   projects: [
-     { title: "Cebu Hangout Roleplay",
-       Description: "This is the First game I developed. I think it has over 12M visits right now but i'm not sure. Well the game is not public right now as i know.",
-       Tags: ["Roblox, Luau"],
-       Link: "https://ro.blox.com/Ebh5?af_dp=roblox%3A%2F%2Fnavigation%2Fgame_details%3FgameId%3D9181712725&af_web_dp=https%3A%2F%2Fwww.roblox.com%2Fgames%2F118512721988970",
-       LinkLabel: "View Project"
-     }
+    {
+      title: "Cebu Hangout Roleplay",
+
+      description: "One of my early Roblox game development projects. The game may no longer be publicly available, and its current visit count has not been verified.",
+
+      tags: ["Roblox", "Luau"],
+
+      link: "https://www.roblox.com/games/118512721988970",
+
+      linkLabel: "View Project"
+    }
+
+    // ADD ANOTHER PROJECT BELOW:
+    // Remember to put a comma after the previous project.
+    /*
+    ,
+    {
+      title: "My Next Project",
+      description: "A short description of what I contributed.",
+      tags: ["Roblox", "Luau"],
+      link: "https://example.com",
+      linkLabel: "View Project"
+    }
+    */
   ],
 
-  
+
+  // CERTIFICATES
+  // Image files go inside assets/certificates/
   certificates: [
     {
-      image: "assets/certificate/certificate1.png",
+      image: "assets/certificates/certificate1.png",
       title: "Ethical Hacking Course",
       description: "Cisco Networking Academy"
     }
+
+    // ADD ANOTHER CERTIFICATE:
+    /*
+    ,
+    {
+      image: "assets/certificates/roblox-dev.png",
+      title: "Certificate Name",
+      description: "Issuing organization"
+    }
+    */
   ],
 
 
+  // CONTACT INFORMATION
   contact: {
     email: "kingytdevs@gmail.com",
+
     links: [
-       
-      {  Label: "LinkedIn", url: "https://www.linkedin.com/in/princekyle-beringia-304a56435?utm_source=share_via&utm_content=profile&utm_medium=member_android", text: "My Profile",
-         label: "GitHub", url: "https://github.com/KINGYTDEV", text: "github.com/KINGYTDEV" }
+      {
+        label: "LinkedIn",
+        url: "https://www.linkedin.com/in/princekyle-beringia-304a56435/",
+        text: "My LinkedIn Profile"
+      },
+
+      {
+        label: "GitHub",
+        url: "https://github.com/KINGYTDEV",
+        text: "github.com/KINGYTDEV"
+      }
     ]
   }
+
 };
