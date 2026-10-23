@@ -39,7 +39,7 @@ window.SITE = {
 
   // ABOUT ME
   about: [
-    "I'm Prince Kyle Beringia, known online as KINGYTDEV. I've spent nearly 5 years in game development and around 2 years learning ethical hacking and cybersecurity. I also have experience leading development teams."
+    "I'm Prince Kyle Beringia, known online as KINGYTDEV. I've spent nearly 9 years in game development and around 2 years learning ethical hacking and cybersecurity. I also have experience leading development teams."
   ],
 
 
@@ -65,6 +65,11 @@ window.SITE = {
       org: "Empire Eclipse Games",
       text: "Lead development work and help manage game development projects."
     },
+   {
+    period: "2022 - Present",
+    role: "Lead Developer/Co-Owner",
+    org: "Zen Plays Studio",
+    text: "I lead this Development Group for almost 5 years. This group has been sentimental for me because the owner trusted me when i was just starting the game development.",
     
   ],
 
