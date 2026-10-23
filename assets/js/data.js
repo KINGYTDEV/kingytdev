@@ -69,7 +69,8 @@ window.SITE = {
     period: "2022 - Present",
     role: "Lead Developer/Co-Owner",
     org: "Zen Plays Studio",
-    text: "I lead this Development Group for almost 5 years. This group has been sentimental for me because the owner trusted me when i was just starting the game development.",
+    text: "I lead this Development Group for almost 5 years. This group has been sentimental for me because the owner trusted me when i was just starting the game development."
+   },
     
   ],
 
