@@ -60,7 +60,9 @@ window.SITE = {
   contact: {
     email: "kingytdevs@gmail.com",
     links: [
-      { label: "GitHub", url: "https://github.com/KINGYTDEV", text: "github.com/KINGYTDEV" }
+       
+      {  Label: "LinkedIn", url: "https://www.linkedin.com/in/princekyle-beringia-304a56435?utm_source=share_via&utm_content=profile&utm_medium=member_android", text: "My Profile",
+         label: "GitHub", url: "https://github.com/KINGYTDEV", text: "github.com/KINGYTDEV" }
     ]
   }
 };
