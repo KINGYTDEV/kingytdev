@@ -89,6 +89,13 @@ window.SITE = {
 
       linkLabel: "View Project"
     }
+   {
+   title: "Empire Terminal Web-Game Project",
+   description: "This project was made for a practices in game development."
+   tags: ["Web-Game", "SI(SuperIntelligence)", "JavaScript", "CSS", "HTML"],
+   link: "https://kingytdev.github.io/Empire-Terminal/"
+   linkLabel: "View Project"
+   }
 
     // ADD ANOTHER PROJECT BELOW:
     // Remember to put a comma after the previous project.
